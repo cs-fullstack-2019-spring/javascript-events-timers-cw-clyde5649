@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="btn">Click Me</button>
+<textarea id="tarea" rows="10" cols="25" disabled></textarea>
+<script>
+    let me = false;
+
+    let butn = document.getElementById("butnn");
+    let text = document.getElementById("tarea");
+
+    butn.addEventListener("click",function (e) {
+        console.log("click button");
+        if (me === true)
+        {
+            text.setAttribute("disabled","");
+            me = false;
+        }
+        else
+        {
+            text.removeAttribute("disabled");
+            me = true;
+        }
+
+    })
+</script>
+</body>
+</html>
