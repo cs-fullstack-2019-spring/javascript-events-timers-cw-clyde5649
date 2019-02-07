@@ -1,3 +1,7 @@
+
+### POINTS: .5
+### KEY: All but first exercise did not execute and was incomplete.No comments.
+
 # JavaScript: Additional events, timers, add attributes
 
 ### Exercise 1:
